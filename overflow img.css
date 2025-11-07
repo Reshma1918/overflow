@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: bisque;
+    gap: 10px;
+    overflow-x: scroll;
+}
+
+.outer>img{
+    border-radius: 19px;
+    height: 250px;
+    box-shadow: 0 10px 20px black;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
